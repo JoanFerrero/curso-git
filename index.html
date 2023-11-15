@@ -6,6 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Sistemes de control de versions</h1>
+    <h1>Sistemes de control de versions - Joan Ferrero</h1>
+
+    <p>Existen tres usuarios y cada uno tiene que realizar un apartado, siendo el que realiza la creacion del proyecto el usuario 1.</p>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="usuario1.html">Usuario 1</a>
+            <a href="usuario2.html">Usuario 2</a>
+            <a href="usuario3.html">Usuario 3</a>
+        </nav>
+    </header>
+    <h1>Correcto uso de ramas -></h1>
+
+    <p>Para usar las ramas correctamente utilizamos la metodologia git Flow.</p>
+
+    <h3>Primer paso:</h3>
+    <p>Creamos el repositorio en github donde el usuario 1 realizara la inicialazion del proyecto.</p>
+    <p>Tendremos la rama master como primera rama.</p>
+
+    <h3>Segundo paso:</h3>
+    <p>Añadiremos una segunda rama que es con la que desarrollaremos cada punto de la aplicacion.</p>
+    <p>Cuando un usuario tenga que implementar algo creara una rama feature/{nombre de lo implementado} y trabajara en esa rama.</p>
+    <p>Al terminal la implementacion creara un merge con develop y lo subira al repositorio remoto.</p>
+
+    <h3>Tercer paso:</h3>
+    <p>Cuando tengamos una version estable en la rama develop realizaremos un merge de develop con master y tendremos la version en produccion.</p>
 </body>
 </html>
